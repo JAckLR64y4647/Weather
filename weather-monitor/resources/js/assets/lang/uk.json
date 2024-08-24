@@ -1,0 +1,143 @@
+{
+	"pages": {
+		"index": {
+			"title": "Головна",
+			"welcome": "Ласкаво просимо до Weather Monitor",
+			"select_location": "Будь ласка, виберіть місце, введіть назву місця або координати через кому:",
+			"search": "Пошук",
+			"add_to_favorites": "Додати в обране"
+		},
+		"forecast": {
+			"title": "Прогноз",
+			"loading_locations": "Завантаження місць...",
+			"location_not_found": "Місце не знайдено",
+			"forecast_for": "Актуальний погодинний прогноз на 7 днів вперед для",
+			"export": "Експорт",
+			"export_to_csv": "Експортувати до CSV",
+			"only_auth": "Тільки для авторизованих користувачів",
+			"share": "Поділитися",
+			"share_on": "Поділитися на",
+			"share_title": "Перегляньте прогноз погоди на \"Weather Monitor\" для",
+			"csv_exported": "CSV файл успішно експортовано."
+		},
+		"profile": {
+			"title": "Профіль",
+			"delete_account_confirm": "Ви впевнені, що хочете видалити свій акаунт?",
+			"name": "Ім'я",
+			"email": "Електронна пошта",
+			"registered_at": "Зареєстрований з",
+			"is_email_verified": "Електронна пошта підтверджена",
+			"send_verification_email": "Відправити підтвердження електронної пошти",
+			"change_password": "Змінити пароль",
+			"delete_account": "Видалити акаунт",
+			"no_locations": "Поки що немає місць",
+			"recent_locations": "Недавно переглянуті місця",
+			"favourite_locations": "Улюблені місця",
+			"current_password": "Поточний пароль",
+			"new_password": "Новий пароль",
+			"new_password_confirm": "Підтвердити новий пароль"
+		},
+		"forgot-password": {
+			"title": "Забули пароль",
+			"email": "Електронна пошта",
+			"send_reset_link": "Відправити посилання для скидання"
+		},
+		"login": {
+			"title": "Вхід",
+			"email": "Електронна пошта",
+			"password": "Пароль",
+			"remember": "Запам'ятати мене",
+			"forgot_password": "Забули пароль",
+			"login": "Вхід",
+			"no_account": "Немає акаунту?"
+		},
+		"logout": {
+			"title": "Вихід"
+		},
+		"register": {
+			"title": "Реєстрація",
+			"name": "Ім'я",
+			"email": "Електронна пошта",
+			"password": "Пароль",
+			"password_confirm": "Підтвердити пароль",
+			"register": "Зареєструватися",
+			"already_account": "Вже маєте акаунт?"
+		},
+		"reset-password": {
+			"title": "Скидання пароля",
+			"invalid_link": "Невірне посилання. Будь ласка, надішліть підтвердження електронної пошти знову.",
+			"new_password": "Новий пароль",
+			"new_password_confirm": "Підтвердити новий пароль"
+		},
+		"verify-email": {
+			"title": "Підтвердження електронної пошти",
+			"invalid_link": "Невірне посилання. Будь ласка, надішліть підтвердження електронної пошти знову."
+		}
+	},
+	"components": {
+		"daily-forecast-block": {
+			"weather_now": "Погода зараз",
+			"today": "Сьогодні"
+		},
+		"weather-name": {
+			"clear_sky": "Ясне небо",
+			"mainly_clear": "Переважно ясно",
+			"partly_cloudy": "Мінлива хмарність",
+			"overcast": "Похмуро",
+			"fog": "Туман",
+			"rime_fog": "Іній",
+			"drizzle_light": "Легкий дощ",
+			"drizzle_moderate": "Помірний дощ",
+			"drizzle_dense": "Сильний дощ",
+			"freezing_drizzle_light": "Легкий крижаний дощ",
+			"freezing_drizzle_dense": "Сильний крижаний дощ",
+			"rain_slight": "Легкий дощ",
+			"rain_moderate": "Помірний дощ",
+			"rain_heavy": "Сильний дощ",
+			"snow_slight": "Легкий сніг",
+			"snow_moderate": "Помірний сніг",
+			"snow_heavy": "Сильний сніг",
+			"snow_grains": "Снігові крупи",
+			"rain_showers_slight": "Легкі дощові зливи",
+			"rain_showers_moderate": "Помірні дощові зливи",
+			"rain_showers_violent": "Сильні дощові зливи",
+			"snow_showers_slight": "Легкі снігові зливи",
+			"snow_showers_heavy": "Сильні снігові зливи",
+			"thunderstorm": "Гроза",
+			"thunderstorm_with_hail_slight": "Легка гроза з градом",
+			"thunderstorm_with_hail_heavy": "Сильна гроза з градом"
+		},
+		"reviews-block": {
+			"reviews": "Відгуки",
+			"add_review_for": "Додати відгук для",
+			"comment": "Коментар",
+			"please_auth": "Будь ласка, увійдіть, щоб мати можливість додавати відгуки",
+			"submit": "Відправити",
+			"no_reviews": "Ще немає відгуків",
+			"review_added": "Відгук успішно додано.",
+			"review_deleted": "Відгук успішно видалено."
+		}
+	},
+	"nav": {
+		"home": "Головна",
+		"dashboard": "Панель керування",
+		"users": "Користувачі",
+		"settings": "Налаштування",
+		"weather": "Погода",
+		"profile": "Профіль",
+		"login": "Вхід",
+		"register": "Реєстрація",
+		"logout": "Вихід"
+	},
+	"common": {
+		"request_failed": "Запит не вдався, будь ласка, спробуйте пізніше.",
+		"success": "Успіх",
+		"error": "Помилка",
+		"edit": "Редагувати",
+		"cancel": "Скасувати",
+		"save": "Зберегти",
+		"submit": "Відправити",
+		"back": "Назад",
+		"toggle_theme": "Перемкнути тему"
+	}
+}

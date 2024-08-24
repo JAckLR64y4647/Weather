@@ -1,0 +1,143 @@
+{
+	"pages": {
+		"index": {
+			"title": "Home",
+			"welcome": "Welcome To Weather Monitor",
+			"select_location": "Please, select location, enter location name or coordinates divided by comma:",
+			"search": "Search",
+			"add_to_favorites": "Add to favorites"
+		},
+		"forecast": {
+			"title": "Forecast",
+			"loading_locations": "Loading locations...",
+			"location_not_found": "Location not found",
+			"forecast_for": "Up to date hourly forecast for 7 days ahead for",
+			"export": "Export",
+			"export_to_csv": "Export to CSV",
+			"only_auth": "Only for authorized users",
+			"share": "Share",
+			"share_on": "Share on",
+			"share_title": "Checkout weather forecast on \"Weather Monitor\" for",
+			"csv_exported": "CSV file has been exported successfully."
+		},
+		"profile": {
+			"title": "Profile",
+			"delete_account_confirm": "Are you sure you want to delete your account?",
+			"name": "Name",
+			"email": "Email",
+			"registered_at": "Registered at",
+			"is_email_verified": "Email verified",
+			"send_verification_email": "Send verification email",
+			"change_password": "Change password",
+			"delete_account": "Delete account",
+			"no_locations": "No locations yet",
+			"recent_locations": "Recently viewed locations",
+			"favourite_locations": "Favourite locations",
+			"current_password": "Current password",
+			"new_password": "New password",
+			"new_password_confirm": "Confirm new password"
+		},
+		"forgot-password": {
+			"title": "Forgot password",
+			"email": "Email",
+			"send_reset_link": "Send reset link"
+		},
+		"login": {
+			"title": "Login",
+			"email": "Email",
+			"password": "Password",
+			"remember": "Remember me",
+			"forgot_password": "Forgot password",
+			"login": "Login",
+			"no_account": "Don't have an account?"
+		},
+		"logout": {
+			"title": "Logging out"
+		},
+		"register": {
+			"title": "Register",
+			"name": "Name",
+			"email": "Email",
+			"password": "Password",
+			"password_confirm": "Confirm password",
+			"register": "Register",
+			"already_account": "Already have an account?"
+		},
+		"reset-password": {
+			"title": "Reset password",
+			"invalid_link": "Invalid link. Please resend the verification email.",
+			"new_password": "New password",
+			"new_password_confirm": "Confirm new password"
+		},
+		"verify-email": {
+			"title": "Verify email",
+			"invalid_link": "Invalid link. Please resend the verification email."
+		}
+	},
+	"components": {
+		"daily-forecast-block": {
+			"weather_now": "Weather now",
+			"today": "Today"
+		},
+		"weather-name": {
+			"clear_sky": "Clear sky",
+			"mainly_clear": "Mainly clear",
+			"partly_cloudy": "Partly cloudy",
+			"overcast": "Overcast",
+			"fog": "Fog",
+			"rime_fog": "Rime fog",
+			"drizzle_light": "Light drizzle",
+			"drizzle_moderate": "Moderate drizzle",
+			"drizzle_dense": "Dense drizzle",
+			"freezing_drizzle_light": "Light freezing drizzle",
+			"freezing_drizzle_dense": "Dense freezing drizzle",
+			"rain_slight": "Slight rain",
+			"rain_moderate": "Moderate rain",
+			"rain_heavy": "Heavy rain",
+			"snow_slight": "Slight snow",
+			"snow_moderate": "Moderate snow",
+			"snow_heavy": "Heavy snow",
+			"snow_grains": "Snow grains",
+			"rain_showers_slight": "Slight rain showers",
+			"rain_showers_moderate": "Moderate rain showers",
+			"rain_showers_violent": "Violent rain showers",
+			"snow_showers_slight": "Light snow showers",
+			"snow_showers_heavy": "Heavy snow showers",
+			"thunderstorm": "Thunderstorm",
+			"thunderstorm_with_hail_slight": "Slight thunderstorm with hail",
+			"thunderstorm_with_hail_heavy": "Heavy thunderstorm with hail"
+		},
+		"reviews-block": {
+			"reviews": "Reviews",
+			"add_review_for": "Add review for",
+			"comment": "Comment",
+			"please_auth": "Please sign in to have an ability to add reviews",
+			"submit": "Submit",
+			"no_reviews": "No reviews yet",
+			"review_added": "Review has been added successfully.",
+			"review_deleted": "Review has been deleted successfully."
+		}
+	},
+	"nav": {
+		"home": "Home",
+		"dashboard": "Dashboard",
+		"users": "Users",
+		"settings": "Settings",
+		"weather": "Weather",
+		"profile": "Profile",
+		"login": "Login",
+		"register": "Register",
+		"logout": "Logout"
+	},
+	"common": {
+		"request_failed": "Request failed, please try again later.",
+		"success": "Success",
+		"error": "Error",
+		"edit": "Edit",
+		"cancel": "Cancel",
+		"save": "Save",
+		"submit": "Submit",
+		"back": "Back",
+		"toggle_theme": "Toggle theme"
+	}
+}

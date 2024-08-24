@@ -1,0 +1,143 @@
+{
+	"pages": {
+		"index": {
+			"title": "ホーム",
+			"welcome": "Weather Monitorへようこそ",
+			"select_location": "場所を選択するか、カンマで区切った場所名または座標を入力してください:",
+			"search": "検索",
+			"add_to_favorites": "お気に入りに追加"
+		},
+		"forecast": {
+			"title": "天気予報",
+			"loading_locations": "場所を読み込み中...",
+			"location_not_found": "場所が見つかりません",
+			"forecast_for": "7日間の最新の時間ごとの天気予報",
+			"export": "エクスポート",
+			"export_to_csv": "CSVにエクスポート",
+			"only_auth": "認証されたユーザーのみ",
+			"share": "シェア",
+			"share_on": "でシェア",
+			"share_title": "\"Weather Monitor\"の天気予報をチェック",
+			"csv_exported": "CSVファイルが正常にエクスポートされました。"
+		},
+		"profile": {
+			"title": "プロフィール",
+			"delete_account_confirm": "本当にアカウントを削除しますか？",
+			"name": "名前",
+			"email": "メール",
+			"registered_at": "登録日時",
+			"is_email_verified": "メールが確認されました",
+			"send_verification_email": "確認メールを送信",
+			"change_password": "パスワードを変更",
+			"delete_account": "アカウントを削除",
+			"no_locations": "場所はまだありません",
+			"recent_locations": "最近表示した場所",
+			"favourite_locations": "お気に入りの場所",
+			"current_password": "現在のパスワード",
+			"new_password": "新しいパスワード",
+			"new_password_confirm": "新しいパスワードを確認"
+		},
+		"forgot-password": {
+			"title": "パスワードを忘れた",
+			"email": "メール",
+			"send_reset_link": "リセットリンクを送信"
+		},
+		"login": {
+			"title": "ログイン",
+			"email": "メール",
+			"password": "パスワード",
+			"remember": "私を覚えてますか",
+			"forgot_password": "パスワードを忘れた",
+			"login": "ログイン",
+			"no_account": "アカウントをお持ちではありませんか？"
+		},
+		"logout": {
+			"title": "ログアウト中"
+		},
+		"register": {
+			"title": "登録",
+			"name": "名前",
+			"email": "メール",
+			"password": "パスワード",
+			"password_confirm": "パスワードを確認",
+			"register": "登録",
+			"already_account": "既にアカウントをお持ちですか？"
+		},
+		"reset-password": {
+			"title": "パスワードをリセット",
+			"invalid_link": "無効なリンクです。確認メールを再送してください。",
+			"new_password": "新しいパスワード",
+			"new_password_confirm": "新しいパスワードを確認"
+		},
+		"verify-email": {
+			"title": "メールを確認",
+			"invalid_link": "無効なリンクです。確認メールを再送してください。"
+		}
+	},
+	"components": {
+		"daily-forecast-block": {
+			"weather_now": "現在の天気",
+			"today": "今日"
+		},
+		"weather-name": {
+			"clear_sky": "晴天",
+			"mainly_clear": "主に晴れ",
+			"partly_cloudy": "部分的に曇り",
+			"overcast": "曇り",
+			"fog": "霧",
+			"rime_fog": "霜の霧",
+			"drizzle_light": "小雨",
+			"drizzle_moderate": "適度な霧雨",
+			"drizzle_dense": "濃い霧雨",
+			"freezing_drizzle_light": "軽い凍結霧雨",
+			"freezing_drizzle_dense": "濃い凍結霧雨",
+			"rain_slight": "小雨",
+			"rain_moderate": "適度な雨",
+			"rain_heavy": "大雨",
+			"snow_slight": "小雪",
+			"snow_moderate": "適度な雪",
+			"snow_heavy": "大雪",
+			"snow_grains": "雪粒",
+			"rain_showers_slight": "小雨のシャワー",
+			"rain_showers_moderate": "適度な雨のシャワー",
+			"rain_showers_violent": "激しい雨のシャワー",
+			"snow_showers_slight": "小雪のシャワー",
+			"snow_showers_heavy": "大雪のシャワー",
+			"thunderstorm": "雷雨",
+			"thunderstorm_with_hail_slight": "小さな雹を伴う雷雨",
+			"thunderstorm_with_hail_heavy": "大きな雹を伴う雷雨"
+		},
+		"reviews-block": {
+			"reviews": "レビュー",
+			"add_review_for": "レビューを追加",
+			"comment": "コメント",
+			"please_auth": "レビューを追加するにはサインインしてください",
+			"submit": "送信",
+			"no_reviews": "まだレビューがありません",
+			"review_added": "レビューが正常に追加されました。",
+			"review_deleted": "レビューが正常に削除されました。"
+		}
+	},
+	"nav": {
+		"home": "ホーム",
+		"dashboard": "ダッシュボード",
+		"users": "ユーザー",
+		"settings": "設定",
+		"weather": "天気",
+		"profile": "プロフィール",
+		"login": "ログイン",
+		"register": "登録",
+		"logout": "ログアウト"
+	},
+	"common": {
+		"request_failed": "リクエストに失敗しました。後でもう一度お試しください。",
+		"success": "成功",
+		"error": "エラー",
+		"edit": "編集",
+		"cancel": "キャンセル",
+		"save": "保存",
+		"submit": "送信",
+		"back": "戻る",
+		"toggle_theme": "テーマを切り替え"
+	}
+}

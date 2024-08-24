@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Nunito', sans-serif;
+
+  --primary-50: 240 249 255;
+  --primary-100: 224 242 254;
+  --primary-200: 186 230 253;
+  --primary-300: 125 211 252;
+  --primary-400: 56 189 248;
+  --primary-500: 14 165 233;
+  --primary-600: 2 132 199;
+  --primary-700: 3 105 161;
+  --primary-800: 7 89 133;
+  --primary-900: 12 74 110;
+  --primary-950: 8 47 73;
+  --surface-0: 255 255 255;
+  --surface-50: 250 250 250;
+  --surface-100: 244 244 245;
+  --surface-200: 228 228 231;
+  --surface-300: 212 212 216;
+  --surface-400: 161 161 170;
+  --surface-500: 113 113 122;
+  --surface-600: 82 82 91;
+  --surface-700: 63 63 70;
+  --surface-800: 39 39 42;
+  --surface-900: 24 24 27;
+  --surface-950: 9 9 11;
+
+  --primary: var(--primary-500);
+  --primary-inverse: var(--surface-0);
+  --primary-hover: var(--primary-600);
+  --primary-active-color: var(--primary-600);
+
+  --primary-highlight-opacity: 0.1;
+  --primary-highlight-inverse: var(--primary-700);
+  --primary-highlight-hover-opacity: 0.2;
+}
+.dark{
+  --primary: var(--primary-400);
+  --primary-inverse: var(--surface-900);
+  --primary-hover: var(--primary-300);
+  --primary-active-color: var(--primary-300);
+
+  --primary-highlight-opacity: 0.2;
+  --primary-highlight-inverse: var(--surface-0);
+  --primary-highlight-hover-opacity: 0.3;
+}
+
+.customized-primary {
+  &:not(.dark){
+    --primary: var(--primary-950);
+    --primary-inverse: var(--surface-0);
+    --primary-hover: var(--primary-800);
+    --primary-active-color: var(--primary-900);
+
+    --primary-highlight-opacity: 1;
+    --primary-highlight-inverse: var(--surface-0);
+    --primary-highlight-hover-opacity: 0.8;
+  }
+  &.dark{
+    --primary: var(--primary-50);
+    --primary-inverse: var(--surface-950);
+    --primary-hover: var(--primary-100);
+    --primary-active-color: var(--primary-100);
+
+    --primary-highlight-opacity: 0.1;
+    --primary-highlight-inverse: var(--surface-0);
+    --primary-highlight-hover-opacity: 0.2;
+
+  }
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity .2s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.card {
+  @apply p-5 border rounded-lg border-surface-200 dark:border-surface-700 bg-surface-0 dark:bg-surface-900
+  text-surface-700 dark:text-surface-0/80;
+}
